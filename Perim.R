@@ -6,8 +6,8 @@ AreaTriangulo<-function(b,a){
   return((b*a)/2)
 }
 
-AreaRectangulo<-function(b,a){
-  return(b*a)
+AreaRectangulo<-function(L,l){
+  return(L*l)
 }
 
 AreaTrapecio<-function(b,B,H){
@@ -22,6 +22,6 @@ PerimetroCircum<-function(r){
   return(2*3.14159*r)
 }
 
-PerimetroRectangulo<-function(b,a){
-  return(2*b+2*a)
+PerimetroRectangulo<-function(l,L){
+  return(2*(L+l))
 }
