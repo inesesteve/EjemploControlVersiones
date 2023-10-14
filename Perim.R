@@ -9,3 +9,11 @@ AreaTriangulo<-function(b,a){
 AreaRectangulo<-function(b,a){
   return(b*a)
 }
+
+PerimetroCuadrado<-function(L){
+  return(4*L)
+}
+
+PerimetroCircum<-function(r){
+  return(2*pi*r)
+}
