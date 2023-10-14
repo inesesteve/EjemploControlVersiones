@@ -10,6 +10,10 @@ AreaRectangulo<-function(b,a){
   return(b*a)
 }
 
+AreaTrapecio<-function(b,B,H){
+  return(((b+B)*H)/2)
+}
+
 PerimetroCuadrado<-function(L){
   return(4*L)
 }
